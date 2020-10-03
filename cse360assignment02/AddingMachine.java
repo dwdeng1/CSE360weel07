@@ -15,6 +15,7 @@ public class AddingMachine {
     /**
      * getTotal is a method that returns total's current value.
      *  It is a public method, using total.
+     * @ return integer
      */
     public int getTotal () {
         return 0;
@@ -22,12 +23,14 @@ public class AddingMachine {
     /**
      * add should add a parameter to total.
      *  It is a public method, using total and a parameter.
+     * @param value
      */
     public void add (int value) {
     }
     /**
      * subtract should subtract the parameter from total.
      *  It is a public method, using total and a parameter.
+     * @param value
      */
     public void subtract (int value) {
     }
