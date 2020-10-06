@@ -51,7 +51,7 @@ public class AddingMachine {
     }
     /**
      * clear should delete the messages from toString
-     *  It is a public method. It just resets the commands back to 0, so it can now display a new string of values.
+     *  It is a public method. It just resets the commands back to 0, so it can now display a new string of values. It also sets total back to 0.
      */
     public void clear() {
         commands="0"; // reset the commands to 0, so everything you do should start from 0.
