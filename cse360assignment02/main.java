@@ -17,6 +17,7 @@ public class main {
        machineObject.clear();//resets command back to 0
        machineObject.subtract(40);//subtracts 40
         System.out.println( machineObject.toString());//display output after clearing and subtracting 40
+        System.out.println(machineObject.getTotal()); // shows total being updated
 
     }
 }

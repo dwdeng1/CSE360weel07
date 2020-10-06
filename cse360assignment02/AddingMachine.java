@@ -55,5 +55,6 @@ public class AddingMachine {
      */
     public void clear() {
         commands="0"; // reset the commands to 0, so everything you do should start from 0.
+        total=0; //reset total
     }
 }
